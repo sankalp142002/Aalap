@@ -1,0 +1,62 @@
+.f-card{
+    width: 50vw;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 5rem ;
+    padding: 3rem;
+}
+
+.f-text{
+    height: 15rem;
+    width: 95%;
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: #212121 1px solid;
+    overflow: scroll;
+    resize: none;
+}
+
+
+.f-button{
+    margin: 2rem 6rem;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.f-button:hover{
+    cursor:pointer;
+    color: #DF85F6;
+  }
+
+  .f-q{
+    font-size: 1.2rem;
+    margin: 1rem 3rem 1rem 1rem;
+  }
+
+  .f-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-design{
+    display: none;
+  }
+
+  .f-send{
+    margin: 1rem
+  }
+
+  @media only screen and (max-width: 450px){
+    /*Small smartphones [325px -> 425px]*/
+    .f-card{
+      width: 90vw;
+      margin: 0;
+    }
+  }

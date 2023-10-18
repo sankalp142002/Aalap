@@ -1,0 +1,11 @@
+.app{
+overflow: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Molengo', Arial, Helvetica, sans-serif;
+}
